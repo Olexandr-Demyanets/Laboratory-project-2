@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Students>
+	<!-- Група ПІ-21: ФІТ, кафедра програмної інженерії, 2 курс -->
+	<Student FullName="Іваненко Петро Олегович" Faculty="ФІТ" Department="Програмної інженерії" Course="2" Group="ПІ-21" FormOfStudy="бюджет" Scholarship="звичайна" Headman="так">
+		<Discipline Name="Програмування" Grade="92" />
+		<Discipline Name="Вища математика" Grade="78" />
+		<Discipline Name="Англійська мова" Grade="85" />
+	</Student>
+
+	<Student FullName="Шевчук Андрій Васильович" Faculty="ФІТ" Department="Програмної інженерії" Course="2" Group="ПІ-21" FormOfStudy="бюджет" Scholarship="підвищена">
+		<Discipline Name="Програмування" Grade="85" />
+		<Discipline Name="Вища математика" Grade="92" />
+		<Discipline Name="Англійська мова" Grade="98" />
+		<Discipline Name="Алгоритми і структури даних" Grade="96" />
+	</Student>
+
+	<Student FullName="Литвиненко Богдан Миколайович" Faculty="ФІТ" Department="Програмної інженерії" Course="2" Group="ПІ-21" FormOfStudy="контракт">
+		<Discipline Name="Програмування" Grade="60" />
+		<Discipline Name="Вища математика" Grade="75" />
+		<Discipline Name="Англійська мова" Grade="67" />
+	</Student>
+
+	<Student FullName="Олійник Софія Петрівна" Faculty="ФІТ" Department="Програмної інженерії" Course="2" Group="ПІ-21" FormOfStudy="контракт">
+		<Discipline Name="Програмування" Grade="60" />
+		<Discipline Name="Вища математика" Grade="62" />
+		<Discipline Name="Англійська мова" Grade="60" />
+	</Student>
+
+	<!-- Група КН-31: ФІТ, кафедра комп'ютерних наук, 3 курс -->
+	<Student FullName="Савченко Ірина Олександрівна" Faculty="ФІТ" Department="Комп'ютерних наук" Course="3" Group="КН-31" FormOfStudy="бюджет" Scholarship="підвищена" Headman="так">
+		<Discipline Name="Програмування" Grade="90" />
+		<Discipline Name="Вища математика" Grade="95" />
+		<Discipline Name="Англійська мова" Grade="100" />
+		<Discipline Name="Бази даних" Grade="97" />
+	</Student>
+
+	<Student FullName="Коваленко Марія Ігорівна" Faculty="ФІТ" Department="Комп'ютерних наук" Course="3" Group="КН-31" FormOfStudy="контракт">
+		<Discipline Name="Програмування" Grade="64" />
+		<Discipline Name="Вища математика" Grade="60" />
+		<Discipline Name="Англійська мова" Grade="75" />
+	</Student>
+
+	<Student FullName="Асієв Олексій Денисович" Faculty="ФІТ" Department="Комп'ютерних наук" Course="3" Group="КН-31" FormOfStudy="контракт">
+		<Discipline Name="Програмування" Grade="64" />
+		<Discipline Name="Вища математика" Grade="60" />
+		<Discipline Name="Англійська мова" Grade="75" />
+	</Student>
+
+	<!-- Група ФН-11: економічний факультет, кафедра фінансів, 1 курс -->
+	<Student FullName="Мельник Дмитро Андрійович" Faculty="ЕФ" Department="Фінансів" Course="1" Group="ФН-11" FormOfStudy="бюджет" Scholarship="підвищена" Headman="так">
+		<Discipline Name="Економічна теорія" Grade="94" />
+		<Discipline Name="Вища математика" Grade="93" />
+		<Discipline Name="Англійська мова" Grade="95" />
+	</Student>
+
+	<Student FullName="Ткаченко Анастасія Вікторівна" Faculty="ЕФ" Department="Фінансів" Course="1" Group="ФН-11" FormOfStudy="бюджет" Scholarship="звичайна">
+		<Discipline Name="Економічна теорія" Grade="74" />
+		<Discipline Name="Вища математика" Grade="90" />
+		<Discipline Name="Англійська мова" Grade="81" />
+	</Student>
+
+	<Student FullName="Бондаренко Олена Сергіївна" Faculty="ЕФ" Department="Фінансів" Course="1" Group="ФН-11" FormOfStudy="контракт">
+		<Discipline Name="Економічна теорія" Grade="87" />
+		<Discipline Name="Вища математика" Grade="63" />
+		<Discipline Name="Англійська мова" Grade="74" />
+	</Student>
+</Students>

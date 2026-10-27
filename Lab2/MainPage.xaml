@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab2.MainPage"
+             Title="Успішність студентів">
+
+    <Grid ColumnDefinitions="340,*" ColumnSpacing="20" Padding="20">
+
+        <ScrollView Grid.Column="0">
+            <VerticalStackLayout Spacing="10">
+
+                <Button Text="Обрати XML-файл" Clicked="OnPickFileClicked" />
+                <Label x:Name="FileLabel" Text="Файл не обрано" FontSize="12" />
+
+                <Label Text="Спосіб аналізу" FontAttributes="Bold" />
+                <Picker x:Name="StrategyPicker" SelectedIndexChanged="OnStrategyChanged" />
+
+                <Label Text="Фільтри за атрибутами" FontAttributes="Bold" />
+                <VerticalStackLayout x:Name="FiltersPanel" Spacing="4" />
+
+                <Label Text="Ключове слово" FontAttributes="Bold" />
+                <Entry x:Name="KeywordEntry" Placeholder="Наприклад: програм" />
+
+                <Button Text="Пошук" Clicked="OnSearchClicked" />
+                <Button Text="Перетворити в HTML" Clicked="OnTransformClicked" />
+                <Button Text="Clear" Clicked="OnClearClicked" />
+                <Button Text="Вихід" Clicked="OnExitClicked" />
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <Editor Grid.Column="1"
+                x:Name="OutputEditor"
+                IsReadOnly="True"
+                FontFamily="Consolas" />
+
+    </Grid>
+</ContentPage>
